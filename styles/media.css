@@ -1,0 +1,71 @@
+@media (max-width: 1132px) {
+    .logo {
+        flex-basis: 85%;
+        text-align: center;
+        margin: 15px;
+    }
+
+    #menu {
+        height: 25px;
+        flex-grow: 1;
+        padding: 0 20px;
+    }
+
+    #menu > ul {
+        align-items: center;
+        justify-content: space-evenly;
+        height: 25px;
+    }
+}
+
+@media (max-width: 448px) {
+    #content {
+        display: block;
+        padding: 20px;
+    }
+
+    #header {
+        display: block;
+        height: 220px;
+        padding: 10px;
+    }
+
+    #menu > ul {
+        display: block;
+        text-align: center;
+    }
+
+    #menu > ul li {
+        margin: 8px;
+    }
+
+    #aside {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #aside h2 {
+        margin: 15px auto;
+        padding: 0 0 45px 0;
+    }
+
+    #projects {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .project {
+        margin: 0 auto;
+    }
+
+    #footer {
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .info {
+        text-align: center;
+        margin: 10px auto;
+    }
+}
